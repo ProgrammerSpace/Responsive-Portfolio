@@ -92,6 +92,7 @@ footer {
 }
 .txt {
     width: 100%;
+    margin-top: 5px;
 }
 .button {
     background-color: teal;
@@ -130,6 +131,7 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
+    /* Wrap text */
     .main {
       width: 900px;
       padding: 30px;
@@ -141,6 +143,7 @@ footer {
         position: relative;
         left: -30px;
     }
+    /* Wrap text */
     .main {
       width: 680px;
       padding: 30px;
@@ -164,12 +167,19 @@ footer {
         margin-top: 1.5em;
         font-size: 1.5em;
     }
+    form {
+        margin-left: 10px;
+    }
+    /* Wrap text */
     .main {
       width: 250px;
       padding: 30px;
     }
     .index_img {
         float: none;
+    }
+    .txt {
+        margin-top: auto;
     }
     .imgs {
         float: none;
